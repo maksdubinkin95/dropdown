@@ -1,0 +1,26 @@
+:root {
+    --background-color: #ffffff;
+
+    --hover-color-gray: #ebebeb;
+
+    --font-color-dark: #333333;
+    --font-color-grey: #999999;
+
+    --border: 1px solid #ebebeb;
+    // --border: 1px solid black;
+    --border-hover: 1px solid #ffffff;
+
+    --border-radius-s: 4px;
+    --border-radius-m: 5px;
+
+    --font-family-base: "Roboto", "sans-serif";
+
+    --container-width: 1284px;
+    --container-padding-x: 20px;
+
+    --padding-y-desktop: 100px;
+    // --padding-y-tablet: 60px;
+    // --padding-y-mobile: 50px;
+
+    --transition-duration: 0.2s;
+}
