@@ -20,6 +20,7 @@ const handleButtonClick = (button, caret, list) => {
 
 const handleOptionClick = (option, selected, dropdown, dropdowns, title, button, caret, list, options) => {
     selected.innerText = option.innerText;
+    addClass(button, "dropdown__button--active");
     removeClass(button, "dropdown__button--clicked");
     removeClass(caret, "dropdown__caret--rotate");
     removeClass(list, "dropdown__list--open");

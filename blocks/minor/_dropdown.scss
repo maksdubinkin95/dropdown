@@ -21,10 +21,14 @@
         cursor: pointer;
 
         color: var(--font-color-grey);
+        background-color: var(--font-color-white);
 
         &.dropdown__button--focus {
             outline: 2px solid #1a73e8;
             transition: outline 0.1s ease-in-out;
+        }
+        &--active {
+            color: var(--font-color-dark);
         }
     }
     &__caret {

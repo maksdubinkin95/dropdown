@@ -19,7 +19,7 @@ body {
   font-size: clamp(14px, 1.2698412698vw, 16px);
   font-family: var(--font-family-base);
   font-weight: 400;
-  color: var(--font-color-light);
+  color: var(--font-color-dark);
   background-color: var(--background-color-main);
 }
 
@@ -47,6 +47,7 @@ h1 {
   --background-color: #ffffff;
   --hover-color-gray: #ebebeb;
   --font-color-dark: #333333;
+  --font-color-white: #ffffff;
   --font-color-grey: #999999;
   --border: 1px solid #ebebeb;
   --border-hover: 1px solid #ffffff;
@@ -153,6 +154,7 @@ body {
 .content__description {
   max-width: 704px;
   margin-bottom: 16px;
+  line-height: 24px;
 }
 .content__description:last-child {
   margin-bottom: 0;
@@ -177,10 +179,14 @@ body {
   border-radius: var(--border-radius-m);
   cursor: pointer;
   color: var(--font-color-grey);
+  background-color: var(--font-color-white);
 }
 .dropdown__button.dropdown__button--focus {
   outline: 2px solid #1a73e8;
   transition: outline 0.1s ease-in-out;
+}
+.dropdown__button--active {
+  color: var(--font-color-dark);
 }
 .dropdown__caret {
   transition: transform 0.2s ease-in-out;
