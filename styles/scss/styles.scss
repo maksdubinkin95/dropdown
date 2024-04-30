@@ -1,5 +1,4 @@
 /*Styles*/
 @import "fonts", "globals", "media", "mixins", "utils", "variables", "normalize";
-// @import "../../blocks/minor/logo", "../../blocks/minor/burger-button", "../../blocks/minor/cross-button", "../../blocks/minor/_mobile-overlay", "../../blocks/minor/button", "../../blocks/minor/instruction", "../../blocks/minor/phone", "../../blocks/minor/service", "../../blocks/minor/form", "../../blocks/minor/statistic", "../../blocks/minor/arrow";
 
-@import "../../blocks/major/main";
+@import "../../blocks/major/content", "../../blocks/minor/dropdown";

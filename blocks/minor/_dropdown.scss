@@ -1,40 +1,5 @@
-.content {
-    padding-top: var(--padding-y-desktop);
-    &__dropdown {
-        position: relative;
-
-        max-width: 392px;
-        &__label {
-            margin-bottom: 8px;
-        }
-        &__list {
-            width: 100%;
-            margin-bottom: 32px;
-            z-index: 1;
-        }
-    }
-    &__title {
-        margin-bottom: 32px;
-        max-width: 704px;
-        word-wrap: break-word;
-    }
-    &__description {
-        max-width: 704px;
-        margin-bottom: 16px;
-        // word-wrap: break-word;
-        &:last-child {
-            margin-bottom: 0;
-        }
-    }
-}
 .dropdown {
     position: relative;
-    &:first-of-type {
-        margin-bottom: 30px;
-    }
-    &:last-of-type {
-        margin-bottom: 72px;
-    }
     &__title {
         margin-bottom: 8px;
     }
@@ -107,5 +72,11 @@
             margin-right: 8px;
             vertical-align: middle;
         }
+    }
+    &:first-of-type {
+        margin-bottom: 30px;
+    }
+    &:last-of-type {
+        margin-bottom: 72px;
     }
 }
